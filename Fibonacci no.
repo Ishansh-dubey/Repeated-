@@ -1,0 +1,36 @@
+package samplePackage;
+
+import java.util.Scanner;
+
+public class SampleClass{ 
+
+  public static void main(String[] args){
+	  
+	  Scanner sc = new Scanner(System.in);  
+	  System.out.println("enter no.: ");
+	  int num = sc.nextInt();
+	  
+	  num = num - 2;
+	  
+	  int b = 0;
+	  int a = 0;
+	  int sum = 1;
+	  System.out.print("0,1,");
+	  for(int i = 1; i<=num; i++) {
+		  
+		  b = sum;
+		  
+		  sum = sum +a;
+		  
+		  a = b;
+		  System.out.print(sum + ",");
+	  }
+	  System.out.println();
+    
+  }
+  }
+    
+
+
+
+
