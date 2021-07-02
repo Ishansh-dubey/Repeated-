@@ -1,0 +1,33 @@
+package SampleProject;
+
+import java.util.Scanner;
+
+public class SampleClass{
+	
+	public static void main (String[] args) {
+     
+	      int b=1;
+	       
+	      Scanner sc = new Scanner(System.in);
+	      
+	      System.out.println("number :");
+	      int a = sc.nextInt();
+	 
+	     
+	      for(int i = a; i > 0; i--) {
+
+	         System.out.print(" "+i);
+	         
+	         System.out.println();
+	         
+	          b = b*i;
+	      }
+	    
+	      
+	         System.out.println("Total: "+b);
+	 }
+}
+							
+
+	
+	
