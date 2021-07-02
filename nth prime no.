@@ -1,0 +1,30 @@
+package SampleProject;
+import java.util.Scanner;
+public class SampleClass{
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your number: ");
+		int num = sc.nextInt();
+		
+		boolean a = false;
+		
+		for(int i= 2; i<=num; i++) {
+			for(int j = 2; j<i; j++) {
+				if(i % j == 0) {
+					a=false;
+					break;
+				}
+				else {
+					a = true;
+				}
+			}
+			if(a==true || i==2) {
+				System.out.println(i +" is a prime no.");
+			}
+		}
+		
+	}
+	
+}
