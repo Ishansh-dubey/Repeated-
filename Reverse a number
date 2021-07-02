@@ -1,0 +1,25 @@
+package SampleProject;
+
+public class SampleClass{
+	
+	public static void main (String[] args) {
+		
+		
+		
+	 String sc = "370";
+	 
+	 int length = sc.length()-1;
+	 
+	 for(int i =length; i>=0; i--) {
+		 
+		int a = sc.charAt(i);
+		
+		 int b = Character.getNumericValue(a);
+
+		 System.out.print(b);
+		 
+		 
+	 }
+			
+	}
+}
