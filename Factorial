@@ -6,25 +6,21 @@ public class SampleClass{
 	
 	public static void main (String[] args) {
      
-	      int b=1;
+	      int a=1;
 	       
 	      Scanner sc = new Scanner(System.in);
 	      
 	      System.out.println("number :");
-	      int a = sc.nextInt();
+	      int b = sc.nextInt();
 	 
 	     
-	      for(int i = a; i > 0; i--) {
-
-	         System.out.print(" "+i);
+	      for(int i = b; i > 0; i--) {
 	         
-	         System.out.println();
-	         
-	          b = b*i;
+	          a = a*i;
 	      }
 	    
 	      
-	         System.out.println("Total: "+b);
+	         System.out.println("Factorial: "+a);
 	 }
 }
 							
