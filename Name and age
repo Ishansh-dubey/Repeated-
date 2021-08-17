@@ -1,0 +1,18 @@
+package SampleProject;
+import java.util.Scanner;
+public class SampleClass{
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ennter your name: ");
+		String name = sc.next();
+		System.out.println("Enter you DOB: ");
+		int dob = sc.nextInt();
+		System.out.println("Enter today's date: ");
+		int today = sc.nextInt();
+		
+		int age = today - dob ;
+		System.out.println("Hello "+name+" your current age is:"+age);
+	}
+	
+}
+	
