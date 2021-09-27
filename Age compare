@@ -1,0 +1,29 @@
+package SampleProject;
+
+import java.util.Scanner;
+public class SampleClass{
+public static void main(String[] args) {
+	
+	Scanner sc= new Scanner (System.in);
+	System.out.println("User A enter your age: ");
+	int a=sc.nextInt();
+	System.out.println("User B enter your age");
+	int b=sc.nextInt();
+	
+	
+      int c = a-b;{
+      
+      if(c==0) {
+    	  System.out.println("A and B is of same age");
+      };
+      if(c>=1) {
+    	  System.out.println("A is older than B");
+      };
+      if (c<=-1) {
+    	  System.out.println("B is older than A");
+      };
+      }
+	
+}
+
+}
