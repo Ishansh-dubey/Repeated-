@@ -1,0 +1,26 @@
+package SampleProject;
+
+public class SampleClass{
+	
+
+	    public static void main(String []args){
+	        
+	     
+	        
+	   int max = 20;
+	   int min = 0;
+	   int  range = max - min;
+	   
+	   for(int i = 0; i< 10; i++) {
+		   double ran =  (Math.random() * range) ;
+		           
+		   // OR
+		   
+		 //  int ran = (int)(Math.random() * range) ;
+		   
+		   System.out.println(ran);
+			   
+	   }
+
+	     }
+	}
