@@ -71,10 +71,10 @@ public class SampleClass{
 
 	    public static void main(String []args){    
 	
-	          int row = 5,  k=0;
+	          int row = 5;
 	          int j=1;
 	          
-	    	for( int i=1; i<= row;  k=0) {
+	    	for( int i=1; i<= row;  ) {
 	    		for(int s=1; s<=i; ++s) {
 	    			System.out.print(s+" ");
 	    		     
@@ -95,5 +95,142 @@ public class SampleClass{
 
 
 
+
+
+
+
+
+package SampleProject;
+
+public class SampleClass{
+	
+
+	    public static void main(String []args){    
+	
+	          int row = 15; 
+	          int j=1;
+	          int s=1;
+	          int i=1;
+	          int z=2;
+	    	for( ; i<= row;   ) {
+	    		for(; s<=i; ) {
+	    			System.out.print(s+" ");
+	    			s++;
+	    		}
+	    		i=i+z;
+	    	   z=z+1;
+	    				
+	    				
+		
+	    		System.out.println();
+	    	}
+	    	
+
+	     }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+package SampleProject;
+
+public class SampleClass{
+	
+
+	    public static void main(String []args){    
+	
+	          int row = 5;  
+	          int j=1;
+	          int z=65;
+	    	for( int i=1; i<= row;  ) {
+	    		for(int s=65; s<=z; ) {
+	    	String String = Character.toString(s);
+	    			System.out.print(String+" ");
+	    		     s=s+1;
+	    		}
+	    			i++;	
+	    		z=z+1;		
+
+	    		System.out.println();
+	    	}
+	    	
+
+	     }
+	}
+
+
+
+
+
+
+
+
+
+package SampleProject;
+
+public class SampleClass{
+	
+
+	    public static void main(String []args){    
+	
+	          int row = 5;  
+	          int j=1;
+	         int z=1;
+	        
+	    	for( int i=1; i<= row;  ) {
+	    		for(  int s=1; s<=i; ) {
+	   
+	    			System.out.print(z+" ");
+	    		     s++;
+	    		}
+	    			i++;	
+                z=z+1;
+	    		System.out.println();
+	    	}
+	    	
+
+	     }
+	}
+
+
+
+
+
+
+
+package SampleProject;
+
+public class SampleClass{
+	
+
+	    public static void main(String []args){    
+	
+	          int row = 5;  
+	          int j=1;
+	         int z=65;
+	        
+	    	for( int i=1; i<= row;  ) {
+	    		for(  int s=1; s<=i; ) {
+	    			String y = Character.toString(z);
+	    			System.out.print(y+" ");
+	    		     s++;
+	    		}
+	    			i++;	
+                z=z+1;
+	    		System.out.println();
+	    	}
+	    	
+
+	     }
+	}
 
 
