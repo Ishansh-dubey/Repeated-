@@ -232,5 +232,39 @@ public class SampleClass{
 
 	     }
 	}
+	
+	
+	
+	
+	
+	
+	package SampleProject;
+
+public class SampleClass{
+	
+
+	    public static void main(String []args){    
+	
+	          int row = 5;  
+	          int j=1;
+	         int z=65;
+	        
+	    	for( int i=1; i<= row;  ) {
+	    		for(  int s=1; s<=i; ) {
+	    			String y = Character.toString(z);
+	    			System.out.print(y+" ");
+	    		     s++;
+	    		     z=z+1;
+	    		}
+	    			i++;	
+               
+	    		System.out.println();
+	    	}
+	    	
+
+	     }
+	}
+
+
 
 
