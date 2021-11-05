@@ -1,0 +1,31 @@
+package SampleProject;
+import java.util.Scanner;
+
+public class SampleClass{
+	
+
+	    public static void main(String []args){    
+	
+	    	  int s = 1;
+	          
+	          Scanner sc = new Scanner(System.in);
+	          System.out.println("Enter required number :");
+	          int num = sc.nextInt();
+	         
+	          for(int i = 1; i<num; i++) {
+	             if(num % i == 0) {
+	              
+	                
+	                s=s+1;
+	             }
+	              
+	           
+	          }
+	     
+	          System.out.println("Total :"+s);
+	 
+	    	   
+	       
+  	  
+	     }
+	}
