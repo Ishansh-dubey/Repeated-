@@ -1,0 +1,34 @@
+package SampleProject;
+
+import java.util.Scanner;
+public class SampleClass{  
+	public static void main(String[] args){ 
+
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your sentence: ");
+		String st = sc.next();
+		
+		
+		  
+		  int count=0;
+		  
+		  int length = st.length()-1;
+		    
+		    
+		    System.out.println(length);
+		    
+		    for(int i=0; i<=length; i++) {
+		    	
+		    	if(st.charAt(i) == '!' || st.charAt(i) == ',' || st.charAt(i) == ';' || st.charAt(i) == '.' ||  st.charAt(i) == '?' || st.charAt(i) == '-' ||  
+	                    st.charAt(i) == '\'' || st.charAt(i) == '\"' || st.charAt(i) == ':') {
+		    	
+		    	
+		    	
+		    	count++;
+		    	}
+		    }
+		    System.out.println("Total punctuation "+ count );
+		}
+		
+	}
