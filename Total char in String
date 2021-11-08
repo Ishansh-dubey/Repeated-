@@ -1,0 +1,32 @@
+package SampleProject;
+
+import java.util.Scanner;
+public class SampleClass{  
+	public static void main(String[] args){ 
+
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your word: ");
+		String st = sc.next();
+		
+		//  String sc = "hi jod";
+		  
+		  int count=0;
+		  
+		  int length = st.length()-1;
+		    
+		  //  int length = sc.length()-1;
+		    
+		    System.out.println(length);
+		    
+		    for(int i=0; i<=length; i++) {
+		    	
+		    	char c = st.charAt(i);
+		//    	char c = sc.charAt(i);
+		    	
+		    	count++;
+		    }
+		    System.out.println(count);
+		}
+		
+	}
