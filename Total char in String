@@ -26,7 +26,7 @@ public class SampleClass{
 		    	
 		    	count++;
 		    }
-		    System.out.println(count);
+		    System.out.println("Total punctuation "+count);
 		}
 		
 	}
