@@ -34,3 +34,29 @@ public class SampleClass{
 
 
 
+
+
+
+package SampleProject;
+import java. util.Scanner;
+
+public class SampleClass{
+	public static void main(String[] args) {                              // 09/11/2021
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter the length of fibonnaci series : ");
+		int length = sc.nextInt();
+		
+		int a=0;
+		int b=1;
+		System.out.print(a);
+		
+		for(int z=1; z<length; z++ ) {
+			int c = a+b;
+			b=a;
+			a=c;
+			System.out.print(" "+c);
+		}
+		
+	}
+}
