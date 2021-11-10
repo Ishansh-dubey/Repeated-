@@ -35,3 +35,46 @@ public class SampleClass{
 
 	
 	
+	
+
+
+
+
+package SampleProject;
+import java. util.Scanner;
+
+public class SampleClass{
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter the no. : ");
+		int arm = sc.nextInt();
+		
+		int armstrong=arm;
+		
+		String arm1=Integer.toString(arm);
+	     int length = arm1.length();
+	
+	     int z=0;
+	     for (int i=1; i<=length; i++) {
+	    	 int a=arm%10;
+	    	 
+	    	  z=z+a*a*a;
+	    	  
+	    	  arm = arm/10;
+	    	
+	    	  
+	     }
+	     if(armstrong==z) {
+		System.out.println( armstrong +" is an armstrong no.");
+	     }
+	     else {
+	    	 System.out.println( armstrong + " is not an armstrong no.");
+	     }
+		}
+		
+	}
+
+
+
+
