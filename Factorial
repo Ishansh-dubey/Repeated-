@@ -23,6 +23,44 @@ public class SampleClass{
 	         System.out.println("Factorial: "+a);
 	 }
 }
+
+
+
+
+
+package SampleProject;
+import java. util.Scanner;
+
+public class SampleClass{
+	public static void main(String[] args) {           //10/11/2021
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter the no. : ");
+		int fac = sc.nextInt();
+		
+	
+		int z=1;
+	
+		for(int i=fac; i>=1; i--) {
+			
+			System.out.print(i);
+			if(i!=1) {
+				System.out.print("*");
+			}
+		    z=z*i;
+			
+		
+				
+			}System.out.println("= "+z);
+			
+		}
+		
+	}
+
+
+
+
+
 							
 
 	
