@@ -45,3 +45,44 @@ public class SampleClass{
 		}
 		
 	}
+
+
+
+
+
+
+
+package SampleProject;
+import java.util.Scanner;
+
+public class SampleClass{                                 11/11/2021
+	
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int scn= sc.nextInt();
+		
+		String len = String.valueOf(scn);
+		
+		int length = len.length()-1;
+		
+		
+		
+		while(length>=0) {
+			
+			int z=scn%10;
+			
+			System.out.print(z);
+			
+			scn=scn/10;
+			
+			length--;
+			
+		}
+		
+		
+	}
+
+	
+}
