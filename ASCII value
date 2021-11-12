@@ -1,0 +1,27 @@
+package SampleProject;
+import java.util.Scanner;
+
+public class SampleClass{
+	
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a number: ");
+	String scn= sc.nextLine();
+		
+		
+		int length = scn.length()-1;
+		
+		
+		
+	for(int i= 0; i<=length; i++ ) {
+		char c=scn.charAt(i);
+		int asciivalue = c;
+		System.out.println(asciivalue);
+	}
+		
+		
+	}
+
+	
+}
