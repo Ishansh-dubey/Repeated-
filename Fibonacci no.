@@ -60,3 +60,28 @@ public class SampleClass{
 		
 	}
 }
+
+
+package JavaCode;
+import java.util.Scanner;                                   //1/4/2022
+
+public class JavaCode{
+	public static void main (String[] args) {
+		
+		int z=0;
+	    int b=1;
+	    int a=1;
+	        System.out.println(z);
+			System.out.println(a); 
+			System.out.println(b);
+			
+		for(; a<=10; ) {
+			
+			int c=b+a;
+			 a=b;
+			 b=c;
+			 System.out.println(c);
+		}
+		
+	}
+}
