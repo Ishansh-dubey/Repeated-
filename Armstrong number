@@ -31,6 +31,37 @@ public class SampleClass{
 		 
 	 }
 }
+
+
+
+
+
+
+
+package JavaCode;
+import java.util.Scanner;
+public class JavaCode{
+	public static void main(String[] args) {            //5/4/2022
+	
+		int i=153;
+		int z=0;
+		
+		for(int x=1; x<=3; x++)
+		{
+			int arm=i%10;
+			i=i/10;
+		
+		      z=z+arm*arm*arm;
+		      
+		     
+		}
+		 System.out.println(z);
+	
+	}
+	
+	}
+		
+	
 							
 
 	
