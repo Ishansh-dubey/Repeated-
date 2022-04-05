@@ -58,3 +58,36 @@ public class SampleClass{
 							
 	
 	
+	
+	package JavaCode;
+import java.util.Scanner;
+public class JavaCode{
+	public static void main(String[] args) {                           //5/4/2022
+		
+		Scanner name = new Scanner (System.in);                            
+		System.out.println("Enter to char to check pallindrome");
+		
+		String str = name.next();
+//String str = "joddsoj";
+		
+		int i = 0;
+		int j = str.length()-1;
+
+		for(i=0; i<=j; ) {
+			
+		if(str.charAt(i)==str.charAt(j))
+		{
+			i++;
+			j--;
+		}
+		else {
+			System.out.println("it is not pallindrome");
+			break;
+		}
+		if(i>j) {
+			System.out.println("it is pallindrome");
+		}
+		}
+	}
+}
+	
