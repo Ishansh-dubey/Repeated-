@@ -63,5 +63,31 @@ public class SampleClass{
 
 							
 
+	package JavaCode;
+import java.util.Scanner;
+public class JavaCode{
+	public static void main(String[] args) {                   //5/4/2022
+	 
+		Scanner num = new Scanner(System.in);
+		System.out.println("Enter a no. to check factorial: ");
+		
+		int i = num.nextInt();
+		int fact = 1;
+		for(; i>=1; i-- )
+		{
+			fact=fact*i;
+			if(i>1) {
+			System.out.print(i+"*");
+			}
+			else {
+				System.out.print(i);
+			}
+		
+		}
+		System.out.println(" = "+fact);
+	}
+	
+	}
+		
 	
 	
