@@ -330,4 +330,25 @@ public class SampleClass{
 
 
 
+package JavaCode;
 
+public class JavaCode{
+	public static void main(String[] args) {           //6/4/2022
+	
+
+		   int row = 10,  num=0;
+	          
+	    	for( int i=1; i<= row; ++i , num=0) {
+   				
+	    			while(num!=2*i-1) {
+	    				System.out.print(num+ " ");
+	    				++num;
+	    			}
+	    		System.out.println();
+	    	}
+	
+	}
+	
+	}
+		
+	
