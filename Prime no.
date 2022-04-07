@@ -199,3 +199,45 @@ public class JavaCode{
 	}
 }
 
+
+
+
+package JavaCode;
+import java.util.Scanner;
+public class JavaCode{
+	public static void main(String[] args) {     //7/4/2022
+		
+		
+	 Scanner sc = new Scanner(System.in);
+     System.out.println("Number: ");
+     int num = sc.nextInt();
+
+     int a=1;
+		int b;
+		int count=2;
+		System.out.println(a);
+		
+		for(int i=3; i<=num; i++ ) {
+			for(int z=2; z<i; z++) {
+			
+				if(i%z!=0) {
+					count++;
+				}
+				
+				else{
+					
+					break;
+				}
+				
+				
+				
+			}
+			if(count==i) {
+				System.out.println(i);
+			}
+			count=2;
+        
+	}
+	
+	}
+}
