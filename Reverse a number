@@ -86,3 +86,42 @@ public class SampleClass{                                 11/11/2021
 
 	
 }
+
+
+
+
+
+
+
+package JavaCode;
+import java.util.Scanner;
+public class JavaCode{
+	public static void main(String[] args) {
+		
+		
+		Scanner scn= new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int sc= scn.nextInt();
+		
+		String lent = String.valueOf(sc);
+		
+		int length = lent.length()-1;
+		
+		
+		
+		while(length>=0) {
+			
+			int z=sc%10;
+			
+			System.out.print(z);
+			
+			sc=sc/10;
+			
+			length--;
+			
+		}
+	}
+	
+	}
+		
+	
